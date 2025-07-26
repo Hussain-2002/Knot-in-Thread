@@ -8,90 +8,148 @@ export const galleryItems: GalleryItem[] = [
   // Toys Category
   {
     id: "1",
-    title: "Amigurumi Friends",
-    description: "Adorable crocheted animals perfect for children and collectors",
+    title: "Amigurumi Teddy Bears",
+    description: "Adorable crocheted teddy bears with bow ties, perfect for children and collectors",
     category: "toys",
-    imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400",
+    imageUrl: "@assets/IMG-9.png_1753511160598.jpg",
     featured: true
   },
   {
     id: "2",
-    title: "Baby Toys Collection",
-    description: "Safe, soft crocheted toys perfect for little hands",
-    category: "toys",
-    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400"
+    title: "Sunflower Garden Collection",
+    description: "Charming crocheted sunflowers in decorative pots - perfect home decor pieces",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-10.png_1753511160600.jpg"
   },
   {
     id: "3",
-    title: "Fantasy Characters",
-    description: "Magical crocheted dolls that spark imagination",
-    category: "toys",
-    imageUrl: "https://pixabay.com/get/g38758eccc8931ced363cefe69427556b0bf75fbbab97dc539187c51bc081b1d9f7c53de3fa09138af76da58b597a51974ac46033f27f36dc3b11887c4098a2c0_1280.jpg"
+    title: "Romantic Rose Bouquet",
+    description: "Beautiful handcrafted red roses with elegant presentation - lasting floral art",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-1.png_1753511160589.jpg",
+    featured: true
   },
   {
     id: "4",
-    title: "Learning Toys",
-    description: "Educational crocheted toys for early learning",
-    category: "toys",
-    imageUrl: "https://pixabay.com/get/ge67e9415a51f2fc5fc91e676f9b9e7f2fe3ae8d51dd12a2209c1592f588c0190994b1a4c1c7a43007a406dad9c32704353a375d2ca54c395716c6fd622768f21_1280.jpg"
+    title: "Designer Handbag Collection",
+    description: "Stylish purple and navy crocheted bag with premium chain handle",
+    category: "accessories",
+    imageUrl: "@assets/IMG-2.png_1753511160590.jpg"
   },
   // Accessories Category
   {
     id: "5",
-    title: "Handbag Collection",
-    description: "Stylish and functional crocheted bags for everyday use",
+    title: "Colorful Hair Bows",
+    description: "Vibrant collection of crocheted hair bows in multiple colors for every occasion",
     category: "accessories",
-    imageUrl: "https://pixabay.com/get/g9328c6e7dca408e492da38222ad8da8905c42ddb91288e873a21fa202fb1dde88e46a1d38d6f737cf043e5bce4957282d7e271a1a07602679e66f4d900c32b3b_1280.jpg"
+    imageUrl: "@assets/IMG-3.png_1753511160591.jpg"
   },
   {
     id: "6",
-    title: "Cozy Scarves",
-    description: "Warm and stylish scarves in beautiful patterns",
-    category: "accessories",
-    imageUrl: "https://pixabay.com/get/gfa54ef2d2c732c1a54b665c3215a2534ce500eafb2c4e54a47cdb51d5a860c6f2ddd8827be6a8e2553a85420a50f5ef10946fe82717c0c96cf254f8a1792c206_1280.jpg"
+    title: "Tulip Bouquet Gift Set",
+    description: "Elegant crocheted tulips in soft pastels with beautiful gift wrapping",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-4.png_1753511160592.jpg",
+    featured: true
   },
   {
     id: "7",
-    title: "Jewelry & Accessories",
-    description: "Delicate crocheted jewelry for special occasions",
-    category: "accessories",
-    imageUrl: "https://pixabay.com/get/gfd20c56bccdd339c96b4921ca7ac0e6e64c0ae33238ac4e3f8874e91169fdf1af080cda41109ead8b30f8f488d34acada8aaff225617c05eafc4958c1fe6eaf6_1280.jpg"
+    title: "Rose Bouquet Premium",
+    description: "Luxurious red rose bouquet with sophisticated white and pink packaging",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-5.png_1753511160592.jpg"
   },
   {
     id: "8",
-    title: "Hats & Headbands",
-    description: "Trendy headwear for all seasons",
-    category: "accessories",
-    imageUrl: "https://pixabay.com/get/g1a1f3ed46164ef862ab2a7fccd12d6da8ae7ef3689c3797fb7b2a9b87bc2c4602302975db9918168fc67410cfdd00ee8edc8659edf0657dd4d93610cd03ff3c5_1280.jpg"
+    title: "White & Red Rose Arrangement",
+    description: "Stunning mixed rose bouquet with heart-shaped white roses and red accents",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-6.png_1753511160594.jpg"
   },
-  // Home Decor Category
   {
     id: "9",
-    title: "Throw Pillows",
-    description: "Cozy cushions to brighten up any living space",
-    category: "home-decor",
-    imageUrl: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400"
+    title: "Pastel Tulip Collection",
+    description: "Delicate crocheted tulips in soft colors with rustic ribbon presentation",
+    category: "home-decor", 
+    imageUrl: "@assets/IMG-7.png_1753511160595.jpg"
   },
   {
     id: "10",
-    title: "Cozy Blankets",
-    description: "Luxurious afghans perfect for snuggling",
+    title: "Kitchen Tulip Display",
+    description: "Beautiful crocheted tulips arranged in glass vases for kitchen decoration",
     category: "home-decor",
-    imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400"
+    imageUrl: "@assets/IMG-8.png_1753511160596.jpg"
   },
   {
     id: "11",
-    title: "Wall Art",
-    description: "Artistic wall hangings to enhance your decor",
+    title: "Classic Red Rose Set",
+    description: "Timeless red roses with green leaves arranged on vintage book pages",
     category: "home-decor",
-    imageUrl: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400"
+    imageUrl: "@assets/IMG-11.png_1753511160602.jpg"
   },
   {
     id: "12",
-    title: "Storage Solutions",
-    description: "Beautiful and functional storage baskets",
+    title: "Luxury Chain Purse",
+    description: "Premium crocheted purse in purple and white with gold chain strap",
+    category: "accessories",
+    imageUrl: "@assets/IMG-12.png_1753511160605.jpg"
+  },
+  {
+    id: "13",
+    title: "Elegant Rose Collection",
+    description: "Sophisticated red and white rose arrangements for special occasions",
     category: "home-decor",
-    imageUrl: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400"
+    imageUrl: "@assets/IMG-13.png_1753511160607.jpg"
+  },
+  {
+    id: "14",
+    title: "Gift-Wrapped Tulips",
+    description: "Beautifully presented tulip bouquets with premium gift wrapping",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-15.png_1753511160608.jpg"
+  },
+  {
+    id: "15",
+    title: "Spring Tulip Garden",
+    description: "Cheerful yellow and pink tulips bringing spring vibes to any space",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-16.png_1753511160609.jpg"
+  },
+  {
+    id: "16",
+    title: "Rainbow Rose Bouquet",
+    description: "Colorful mixed rose collection in vibrant hues with elegant packaging",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-17.png_1753511160610.jpg"
+  },
+  {
+    id: "17",
+    title: "Designer Handbag Set",
+    description: "Luxurious crocheted bags with chain straps in coordinated colors",
+    category: "accessories",
+    imageUrl: "@assets/IMG-18.png_1753511160611.jpg"
+  },
+  {
+    id: "18",
+    title: "Premium Rose Arrangement",
+    description: "Exquisite red roses with sophisticated white packaging and ribbons",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-19.png_1753511160612.jpg"
+  },
+  {
+    id: "19",
+    title: "Summer Sunflower Set",
+    description: "Bright yellow sunflowers with rustic charm, perfect for kitchen decor",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-20.png_1753511160613.jpg"
+  },
+  {
+    id: "20",
+    title: "Festive Tulip Bouquet",
+    description: "Celebration-ready tulip arrangement with premium ribbon presentation",
+    category: "home-decor",
+    imageUrl: "@assets/IMG-21.png_1753511160616.jpg",
+    featured: true
   }
 ];
 

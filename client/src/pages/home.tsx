@@ -73,48 +73,48 @@ export default function Home() {
                 <div className="space-y-6">
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform rotate-3 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600" 
-                      alt="Colorful amigurumi toys" 
+                      src="@assets/IMG-9.png_1753511160598.jpg" 
+                      alt="Amigurumi teddy bears" 
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <p className="font-bold">Amigurumi Friends</p>
+                      <p className="font-bold">Amigurumi Teddy Bears</p>
                     </div>
                   </div>
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform -rotate-2 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
-                      alt="Pastel yarn collection" 
+                      src="@assets/IMG-3.png_1753511160591.jpg" 
+                      alt="Colorful hair bows" 
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <p className="font-bold">Premium Yarns</p>
+                      <p className="font-bold">Hair Bow Collection</p>
                     </div>
                   </div>
                 </div>
                 <div className="space-y-6 pt-12">
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform rotate-2 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
-                      alt="Cozy home decor" 
+                      src="@assets/IMG-4.png_1753511160592.jpg" 
+                      alt="Tulip bouquet gift set" 
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <p className="font-bold">Home Decor</p>
+                      <p className="font-bold">Tulip Bouquets</p>
                     </div>
                   </div>
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform -rotate-1 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600" 
-                      alt="Handcrafted accessories" 
+                      src="@assets/IMG-2.png_1753511160590.jpg" 
+                      alt="Designer handbag collection" 
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <p className="font-bold">Accessories</p>
+                      <p className="font-bold">Designer Handbags</p>
                     </div>
                   </div>
                 </div>
