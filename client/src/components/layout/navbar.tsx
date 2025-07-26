@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Heart } from "lucide-react";
-
+import { Menu } from "lucide-react";
+import Logo from "@/assets/Logo.png"; // Adjust the path as necessary
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/gallery", label: "Gallery" },
@@ -20,14 +20,18 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-              <Heart className="text-white text-lg" fill="currentColor" />
+            <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg group-hover:scale-110 transition-transform duration-300">
+              <img
+                src={Logo} // 👈 Replace with your actual logo path
+                alt="Knot in Thread Logo"
+                className="w-full h-full object-cover"
+              />
             </div>
             <h1 className="font-dancing text-3xl font-bold bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text text-transparent group-hover:scale-105 transition-transform duration-300">
               Knot in Thread
             </h1>
           </Link>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-2">
             {navItems.map((item) => (
@@ -35,9 +39,9 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 className={`relative px-6 py-3 rounded-full text-gray-700 hover:text-purple-700 transition-all duration-300 font-medium ${
-                  location === item.href 
-                    ? 'bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 font-semibold shadow-lg' 
-                    : 'hover:bg-gray-50'
+                  location === item.href
+                    ? "bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 font-semibold shadow-lg"
+                    : "hover:bg-gray-50"
                 }`}
               >
                 {item.label}
@@ -47,19 +51,27 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-          
+
           {/* Mobile Menu */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon" className="text-purple-700 hover:bg-purple-50 rounded-full p-3">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-purple-700 hover:bg-purple-50 rounded-full p-3"
+              >
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-80 bg-white">
               <div className="flex flex-col space-y-6 mt-12">
                 <div className="text-center mb-8">
-                  <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl">
-                    <Heart className="text-white text-2xl" fill="currentColor" />
+                  <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 shadow-xl">
+                    <img
+                      src="/logo.png" // 👈 Same logo here
+                      alt="Knot in Thread Logo"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h2 className="font-dancing text-2xl font-bold bg-gradient-to-r from-purple-700 to-pink-700 bg-clip-text text-transparent">
                     Knot in Thread
@@ -71,9 +83,9 @@ export default function Navbar() {
                     href={item.href}
                     onClick={() => setIsOpen(false)}
                     className={`block text-center py-4 px-6 rounded-xl transition-all duration-300 font-medium ${
-                      location === item.href 
-                        ? 'bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 font-semibold shadow-lg' 
-                        : 'text-gray-700 hover:bg-gray-50 hover:text-purple-700'
+                      location === item.href
+                        ? "bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 font-semibold shadow-lg"
+                        : "text-gray-700 hover:bg-gray-50 hover:text-purple-700"
                     }`}
                   >
                     {item.label}

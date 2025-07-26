@@ -12,7 +12,10 @@ import { useToast } from "@/hooks/use-toast";
 import { Phone, Mail, MessageCircle, Send, Info, Instagram, Facebook, BookmarkPlus as Pinterest } from "lucide-react";
 import { insertContactMessageSchema } from "@shared/schema";
 import { apiRequest } from "@/lib/queryClient";
-import { PHONE_NUMBER, EMAIL, WHATSAPP_MESSAGE } from "@/lib/constants";
+
+const PHONE_NUMBER = "+91 89650 95353";
+const EMAIL = "youremail@example.com";
+const WHATSAPP_MESSAGE = "Hi! I'm interested in your crochet work. Could we chat?";
 
 export default function Contact() {
   const { toast } = useToast();
@@ -56,7 +59,7 @@ export default function Contact() {
     contactMutation.mutate(data);
   };
 
-  const whatsappUrl = `https://wa.me/${PHONE_NUMBER.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+  const whatsappUrl = `https://wa.me/918965095353?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
   return (
     <div className="pt-20">

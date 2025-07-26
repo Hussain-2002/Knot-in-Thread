@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import Testimonials from "@/components/testimonials";
+import Logo from "@/assets/Logo.png";
 
 export default function About() {
   return (
@@ -8,11 +9,12 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <img 
-                src="https://pixabay.com/get/gbc0a6fb8467667e23a266042f47ba6d64283f2ede5ceb88544db4973136d9f2ea9fd9f4b15de2a9368adb2a2147b97d5ff046ed77b586a7ee58dad4319676c2e_1280.jpg" 
-                alt="Creator workspace with yarn and crochet tools" 
-                className="rounded-xl shadow-lg w-full h-auto" 
-              />
+             <img 
+              src={Logo}  // ✅ No quotes here!
+              alt="Creator workspace with yarn and crochet tools" 
+              className="rounded-xl shadow-lg w-full h-auto" 
+            />
+
             </div>
             
             <div>
@@ -22,7 +24,7 @@ export default function About() {
               
               <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                  Hello! I'm Sarah, the heart and hands behind Knot in Thread. My journey with crochet began over 10 years ago when my grandmother taught me my first stitches. What started as a simple hobby has blossomed into a passionate craft that brings joy to both me and my customers.
+                  Hello! I'm Aiman Ezzy, the heart and hands behind Knot in Thread. My journey with crochet began over 5 years ago with the Raza Mubarak of His Holinees Dr. Sayedna Muffadal Saifuddin. What started as a simple hobby has blossomed into a passionate craft that brings joy to both me and my customers.
                 </p>
                 
                 <p>
@@ -37,13 +39,13 @@ export default function About() {
               <div className="mt-8 grid grid-cols-3 gap-4">
                 <Card className="bg-white/80">
                   <CardContent className="p-4 text-center">
-                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">10+ Years</h4>
+                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">5+ Years</h4>
                     <p className="text-sm text-gray-600">Experience</p>
                   </CardContent>
                 </Card>
                 <Card className="bg-white/80">
                   <CardContent className="p-4 text-center">
-                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">500+</h4>
+                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">150+</h4>
                     <p className="text-sm text-gray-600">Happy Customers</p>
                   </CardContent>
                 </Card>

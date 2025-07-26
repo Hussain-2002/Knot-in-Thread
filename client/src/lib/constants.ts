@@ -5,174 +5,182 @@ export const EMAIL = "knotinthread@example.com";
 export const WHATSAPP_MESSAGE = "Hi Knot in Thread! I'm interested in your crochet work.";
 
 export const galleryItems: GalleryItem[] = [
-  // Toys Category
   {
     id: "1",
-    title: "Amigurumi Teddy Bears",
-    description: "Adorable crocheted teddy bears with bow ties, perfect for children and collectors",
-    category: "toys",
-    imageUrl: "@assets/IMG-9.png_1753511160598.jpg",
-    featured: true
+    title: "Single Red Rose",
+    description: "Delicately crocheted red rose — a heartfelt gift for loved ones",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-1.png",
   },
   {
     id: "2",
-    title: "Sunflower Garden Collection",
-    description: "Charming crocheted sunflowers in decorative pots - perfect home decor pieces",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-10.png_1753511160600.jpg"
+    title: "Beautiful HandBag",
+    description: "Stylish and functional crochet handbag — perfect for everyday use",
+    category: "accessories",
+    imageUrl: "/IMG-2.png",
   },
   {
     id: "3",
-    title: "Romantic Rose Bouquet",
-    description: "Beautiful handcrafted red roses with elegant presentation - lasting floral art",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-1.png_1753511160589.jpg",
-    featured: true
+    title: "flower hair bow clip",
+    description: "Charming flower hair bow clip with crochet details — perfect for kids",
+    category: "accessories",
+    imageUrl: "/IMG-3.png",
   },
   {
     id: "4",
-    title: "Designer Handbag Collection",
-    description: "Stylish purple and navy crocheted bag with premium chain handle",
-    category: "accessories",
-    imageUrl: "@assets/IMG-2.png_1753511160590.jpg"
+    title: "Tulips Flower Bouquet",
+    description: "Charming tulip bouquet with crochet details — perfect for gifting",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-4.png",
   },
-  // Accessories Category
   {
     id: "5",
-    title: "Colorful Hair Bows",
-    description: "Vibrant collection of crocheted hair bows in multiple colors for every occasion",
-    category: "accessories",
-    imageUrl: "@assets/IMG-3.png_1753511160591.jpg"
+    title: "Red Rose Bouquet",
+    description: "Charming red rose bouquet with crochet details — perfect for gifting",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-5.png",
   },
   {
     id: "6",
-    title: "Tulip Bouquet Gift Set",
-    description: "Elegant crocheted tulips in soft pastels with beautiful gift wrapping",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-4.png_1753511160592.jpg",
-    featured: true
+    title: "Heart shaped Flower Bouquet",
+    description: "Charming heart-shaped bouquet with crochet details — perfect for gifting",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-6.png",
   },
   {
     id: "7",
-    title: "Rose Bouquet Premium",
-    description: "Luxurious red rose bouquet with sophisticated white and pink packaging",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-5.png_1753511160592.jpg"
+    title: "I Love You Bouquet",
+    description: "Charming bouquet with 'I Love You' message — perfect for expressing love",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-7.png",
   },
   {
     id: "8",
-    title: "White & Red Rose Arrangement",
-    description: "Stunning mixed rose bouquet with heart-shaped white roses and red accents",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-6.png_1753511160594.jpg"
+    title: "Tulips flower bouquet",
+    description: "Charming tulip bouquet with crochet details — perfect for gifting",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-8.png",
   },
   {
     id: "9",
-    title: "Pastel Tulip Collection",
-    description: "Delicate crocheted tulips in soft colors with rustic ribbon presentation",
-    category: "home-decor", 
-    imageUrl: "@assets/IMG-7.png_1753511160595.jpg"
+    title: "Teddy Bear ",
+    description: "Adorable teddy bear with crochet details — perfect for kids",
+    category: "toys",
+    imageUrl: "/IMG-9.png",
   },
   {
     id: "10",
-    title: "Kitchen Tulip Display",
-    description: "Beautiful crocheted tulips arranged in glass vases for kitchen decoration",
+    title: "Sunflower pots set",
+    description: "Set of cheerful sunflower pots — handmade for brightening up spaces",
     category: "home-decor",
-    imageUrl: "@assets/IMG-8.png_1753511160596.jpg"
+    imageUrl: "/IMG-10.png",
   },
   {
     id: "11",
-    title: "Classic Red Rose Set",
-    description: "Timeless red roses with green leaves arranged on vintage book pages",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-11.png_1753511160602.jpg"
+    title: "Vintage Red Rose Set",
+    description: "A collection of roses on vintage paper — poetic and beautiful",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-11.png",
   },
   {
     id: "12",
-    title: "Luxury Chain Purse",
-    description: "Premium crocheted purse in purple and white with gold chain strap",
+    title: "Luxury Crochet Purse",
+    description: "Purple & white purse with gold chain — luxury meets handmade",
     category: "accessories",
-    imageUrl: "@assets/IMG-12.png_1753511160605.jpg"
+    imageUrl: "/IMG-12.png",
   },
   {
     id: "13",
-    title: "Elegant Rose Collection",
-    description: "Sophisticated red and white rose arrangements for special occasions",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-13.png_1753511160607.jpg"
+    title: "Singel FLower",
+    description: "Single flower with crochet details — perfect for gifting",
+    category: "flower-bouquet",
+    imageUrl: "/IMG-13.png",
   },
   {
     id: "14",
-    title: "Gift-Wrapped Tulips",
-    description: "Beautifully presented tulip bouquets with premium gift wrapping",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-15.png_1753511160608.jpg"
+    title: "Beautiful Red Rose",
+    description: "Single red rose with crochet details — perfect for gifting",
+    category: "accessories",
+    imageUrl: "/IMG-15.png"
   },
   {
     id: "15",
-    title: "Spring Tulip Garden",
-    description: "Cheerful yellow and pink tulips bringing spring vibes to any space",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-16.png_1753511160609.jpg"
+    title: "Bunny doll",
+    description: "Cute bunny doll with crochet details — perfect for kids",
+    category: "toys",
+    imageUrl: "/IMG-16.png"
   },
   {
     id: "16",
-    title: "Rainbow Rose Bouquet",
-    description: "Colorful mixed rose collection in vibrant hues with elegant packaging",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-17.png_1753511160610.jpg"
+    title: "Bunch of Flower",
+    description: "Charming crochet flower bunch for Rida",
+    category: "accessories",
+    imageUrl: "/IMG-17.png"
   },
   {
     id: "17",
-    title: "Designer Handbag Set",
-    description: "Luxurious crocheted bags with chain straps in coordinated colors",
-    category: "accessories",
-    imageUrl: "@assets/IMG-18.png_1753511160611.jpg"
+    title: "Cute Lion doll",
+    description: "Adorable lion doll with crochet details — perfect for kids",
+    category: "toys",
+    imageUrl: "/IMG-18.png"
   },
   {
     id: "18",
-    title: "Premium Rose Arrangement",
-    description: "Exquisite red roses with sophisticated white packaging and ribbons",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-19.png_1753511160612.jpg"
+    title: "Hanmade Dear Doll",
+    description: "Adorable crochet deer doll — perfect for kids and nursery decor",
+    category: "toys",
+    imageUrl: "/IMG-19.png"
   },
   {
     id: "19",
-    title: "Summer Sunflower Set",
-    description: "Bright yellow sunflowers with rustic charm, perfect for kitchen decor",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-20.png_1753511160613.jpg"
+    title: "Handmade Crochet Nursery Hanging",
+    description: "Nursery hanging with crochet toys — perfect for baby rooms",
+    category: "accessories",
+    imageUrl: "/IMG-20.png"
   },
   {
     id: "20",
-    title: "Festive Tulip Bouquet",
-    description: "Celebration-ready tulip arrangement with premium ribbon presentation",
-    category: "home-decor",
-    imageUrl: "@assets/IMG-21.png_1753511160616.jpg",
-    featured: true
-  }
+    title: "Heart Keychain",
+    description: "Handmade heart keychain with crochet details — perfect for bag charms",
+    category: "keychain",
+    imageUrl: "/IMG-21.png",
+  },
+  {
+    id: "21",
+    title: "Bee Keychain",
+    description: "Cute bee keychain with crochet details — perfect for bag charms",
+    category: "keychain",
+    imageUrl: "/IMG-22.png",
+  },
+  {
+    id: "22",
+    title: "HandMade Pony Doll",
+    description: "Adorable pony doll with crochet details — perfect for kids",
+    category: "toys",
+    imageUrl: "/IMG-23.png",
+  },
 ];
 
 export const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Emma Rodriguez",
-    role: "New Mom",
-    content: "The most beautiful baby blanket I've ever seen! Sarah's attention to detail is incredible. My daughter loves her new toy too.",
+    name: "Arefa",
+    role: "",
+    content: "Absolutely love the custom crochet flower bouquet! It's the perfect addition to my baby's nursery. The quality is amazing and it arrived so quickly. Thank you, Aiman!",
     rating: 5
   },
   {
     id: "2",
-    name: "Michael Chen",
-    role: "Fashion Enthusiast",
-    content: "Custom scarf exceeded all my expectations! Perfect colors, soft texture, and arrived exactly when promised. Highly recommend!",
+    name: "Mariya",
+    role: "",
+    content: "Thankyou for the beautiful bee keychain! It's so cute and well-made. I love the attention to detail and the colors are just perfect. Will definitely order again!",
     rating: 5
   },
   {
     id: "3",
-    name: "Lisa Thompson",
-    role: "Interior Designer",
-    content: "The throw pillows completely transformed our living room! Quality is amazing and the patterns are so unique. Thank you, Sarah!",
+    name: "umme",
+    role: "",
+    content: "Thank you so much for the beautiful crochet work! The quality is outstanding and the colors are vibrant. I appreciate the care you put into each piece. Highly recommend!",
     rating: 5
   }
 ];

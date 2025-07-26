@@ -73,7 +73,7 @@ export default function Home() {
                 <div className="space-y-6">
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform rotate-3 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="@assets/IMG-9.png_1753511160598.jpg" 
+                      src="/IMG-9.png" 
                       alt="Amigurumi teddy bears" 
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
@@ -84,7 +84,7 @@ export default function Home() {
                   </div>
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform -rotate-2 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="@assets/IMG-3.png_1753511160591.jpg" 
+                      src="/IMG-3.png" 
                       alt="Colorful hair bows" 
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
@@ -97,7 +97,7 @@ export default function Home() {
                 <div className="space-y-6 pt-12">
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform rotate-2 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="@assets/IMG-4.png_1753511160592.jpg" 
+                      src="/IMG-4.png" 
                       alt="Tulip bouquet gift set" 
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
@@ -108,7 +108,7 @@ export default function Home() {
                   </div>
                   <div className="group relative overflow-hidden rounded-3xl shadow-2xl transform -rotate-1 hover:rotate-0 transition-all duration-500 hover:scale-105">
                     <img 
-                      src="@assets/IMG-2.png_1753511160590.jpg" 
+                      src="/IMG-2.png" 
                       alt="Designer handbag collection" 
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" 
                     />
