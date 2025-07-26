@@ -156,8 +156,8 @@ export default function Home() {
               </div>
               <div className="relative overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
-                  alt="Amigurumi Friends" 
+                  src="/IMG-9.png" 
+                  alt="Teddy Bears" 
                   className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
@@ -183,8 +183,8 @@ export default function Home() {
               </div>
               <div className="relative overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
-                  alt="Throw Pillows" 
+                  src="/IMG-5.png" 
+                  alt="Flower Bouquet" 
                   className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
@@ -210,7 +210,7 @@ export default function Home() {
               </div>
               <div className="relative overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400" 
+                  src="/IMG-12.png" 
                   alt="Handbag Collection" 
                   className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500" 
                 />
