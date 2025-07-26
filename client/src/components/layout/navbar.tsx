@@ -68,7 +68,7 @@ export default function Navbar() {
                 <div className="text-center mb-8">
                   <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 shadow-xl">
                     <img
-                      src="/logo.png" // 👈 Same logo here
+                      src={Logo} // 👈 Same logo here
                       alt="Knot in Thread Logo"
                       className="w-full h-full object-cover"
                     />

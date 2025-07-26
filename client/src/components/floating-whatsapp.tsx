@@ -1,8 +1,7 @@
 import { PHONE_NUMBER, WHATSAPP_MESSAGE } from "@/lib/constants";
 
 export default function FloatingWhatsApp() {
-  const whatsappUrl = `https://wa.me/${PHONE_NUMBER.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-
+  const whatsappUrl = `https://wa.me/918965095353?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
   return (
     <a
       href={whatsappUrl}

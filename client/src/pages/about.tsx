@@ -39,13 +39,13 @@ export default function About() {
               <div className="mt-8 grid grid-cols-3 gap-4">
                 <Card className="bg-white/80">
                   <CardContent className="p-4 text-center">
-                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">5+ Years</h4>
+                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">7+ Years</h4>
                     <p className="text-sm text-gray-600">Experience</p>
                   </CardContent>
                 </Card>
                 <Card className="bg-white/80">
                   <CardContent className="p-4 text-center">
-                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">150+</h4>
+                    <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-2">500+</h4>
                     <p className="text-sm text-gray-600">Happy Customers</p>
                   </CardContent>
                 </Card>
