@@ -99,9 +99,9 @@ export default function Contact() {
                 {/* Phone */}
                 <a 
                   href={`tel:${PHONE_NUMBER}`}
-                  className="flex items-center p-4 bg-soft-lavender/20 rounded-xl hover:bg-soft-lavender/30 transition-colors duration-300 group"
+                  className="flex items-center p-4 bg-orange-50 rounded-xl hover:bg-orange-100 transition-colors duration-300 group"
                 >
-                  <div className="w-12 h-12 bg-gradient-to-r from-soft-lavender to-soft-peach rounded-full flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
                     <Phone className="text-white w-6 h-6" />
                   </div>
                   <div>
@@ -113,9 +113,9 @@ export default function Contact() {
                 {/* Email */}
                 <a 
                   href={`mailto:${EMAIL}`}
-                  className="flex items-center p-4 bg-soft-peach/20 rounded-xl hover:bg-soft-peach/30 transition-colors duration-300 group"
+                  className="flex items-center p-4 bg-yellow-50 rounded-xl hover:bg-yellow-100 transition-colors duration-300 group"
                 >
-                  <div className="w-12 h-12 bg-gradient-to-r from-soft-peach to-soft-mint rounded-full flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-green-400 rounded-full flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
                     <Mail className="text-white w-6 h-6" />
                   </div>
                   <div>
@@ -129,13 +129,13 @@ export default function Contact() {
               <div className="mt-8">
                 <h4 className="font-dancing text-xl font-semibold text-warm-clay mb-4">Follow My Journey</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="w-10 h-10 bg-gradient-to-r from-soft-lavender to-soft-peach rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
+                  <a href="#" className="w-10 h-10 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
                     <Instagram className="w-5 h-5" />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-gradient-to-r from-soft-peach to-soft-mint rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
+                  <a href="#" className="w-10 h-10 bg-gradient-to-r from-yellow-400 to-green-400 rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
                     <Facebook className="w-5 h-5" />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-gradient-to-r from-soft-mint to-warm-taupe rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
+                  <a href="#" className="w-10 h-10 bg-gradient-to-r from-green-400 to-orange-400 rounded-full flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
                     <Pinterest className="w-5 h-5" />
                   </a>
                 </div>
@@ -159,7 +159,7 @@ export default function Contact() {
                         <FormControl>
                           <Input 
                             placeholder="Enter your full name" 
-                            className="border-2 border-soft-lavender focus:border-warm-clay"
+                            className="border-2 border-yellow-200 focus:border-orange-500"
                             {...field} 
                           />
                         </FormControl>
@@ -178,7 +178,7 @@ export default function Contact() {
                           <Input 
                             type="email"
                             placeholder="your.email@example.com" 
-                            className="border-2 border-soft-lavender focus:border-warm-clay"
+                            className="border-2 border-yellow-200 focus:border-orange-500"
                             {...field} 
                           />
                         </FormControl>
@@ -195,7 +195,7 @@ export default function Contact() {
                         <FormLabel className="text-sm font-medium text-warm-clay">Project Type</FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
-                            <SelectTrigger className="border-2 border-soft-lavender focus:border-warm-clay">
+                            <SelectTrigger className="border-2 border-yellow-200 focus:border-orange-500">
                               <SelectValue placeholder="Select a category" />
                             </SelectTrigger>
                           </FormControl>
@@ -223,7 +223,7 @@ export default function Contact() {
                           <Textarea 
                             rows={5}
                             placeholder="Tell me about your project, preferred colors, size, timeline, or any special requirements..."
-                            className="border-2 border-soft-lavender focus:border-warm-clay resize-vertical"
+                            className="border-2 border-yellow-200 focus:border-orange-500 resize-vertical"
                             {...field} 
                           />
                         </FormControl>
@@ -235,7 +235,7 @@ export default function Contact() {
                   <Button 
                     type="submit" 
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-soft-lavender to-soft-peach text-warm-clay py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105 border-none"
+                    className="w-full bg-gradient-to-r from-orange-400 to-yellow-500 text-white py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105 border-none"
                   >
                     <Send className="mr-2 h-4 w-4" />
                     {isSubmitting ? 'Sending...' : 'Send Message'}
@@ -243,7 +243,7 @@ export default function Contact() {
                 </form>
               </Form>
               
-              <Card className="mt-6 bg-soft-mint/20 border-soft-mint/30">
+              <Card className="mt-6 bg-green-50 border-green-200">
                 <CardContent className="p-4">
                   <div className="flex items-start">
                     <Info className="text-warm-clay mt-1 mr-3 w-5 h-5" />
